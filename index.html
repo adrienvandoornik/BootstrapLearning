@@ -3,12 +3,48 @@
 <head>
     <meta charset="utf-8">
     <title>Bootstrap Learning</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 <body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Adrien Van Doornik</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-nav-demo">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">A propos</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <h1>Hello</h1>
-    <h3>My  name is Adrien Van Doornik</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a arcu enim. Etiam placerat accumsan eros, sit amet vulputate leo tempus in. Cras dictum pharetra eleifend. Morbi et sollicitudin dolor, nec suscipit sem. Nam ultrices maximus auctor. Aliquam bibendum varius congue. Nulla eget ex feugiat, accumsan lacus sed, aliquet sapien. Ut consequat auctor molestie. Curabitur feugiat neque ac massa ullamcorper luctus. Nullam imperdiet convallis tellus, id viverra eros tempor nec. Curabitur quam erat, sodales ac justo id, auctor cursus orci. Maecenas tortor lectus, cursus nec maximus non, aliquam consequat magna. </p>
+    <h3>My name is Adrien Van Doornik</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a arcu enim. Etiam placerat accumsan eros, sit
+        amet vulputate leo tempus in. Cras dictum pharetra eleifend. Morbi et sollicitudin dolor, nec suscipit sem. Nam
+        ultrices maximus auctor. Aliquam bibendum varius congue. Nulla eget ex feugiat, accumsan lacus sed, aliquet
+        sapien. Ut consequat auctor molestie. Curabitur feugiat neque ac massa ullamcorper luctus. Nullam imperdiet
+        convallis tellus, id viverra eros tempor nec. Curabitur quam erat, sodales ac justo id, auctor cursus orci.
+        Maecenas tortor lectus, cursus nec maximus non, aliquam consequat magna. </p>
     <button type="button" class="btn btn-primary">Primary</button>
     <button type="button" class="btn btn-secondary">Secondary</button>
     <button type="button" class="btn btn-success">Success</button>
@@ -20,11 +56,11 @@
     <button type="button" class="btn btn-link">Link</button>
     <br><br>
     <div class="btn-group btn-group-justified">
-            <a href="#" class="btn btn-primary">Primary Button</a>
-            <a href="#" class="btn btn-success">Success Button</a>
-            <a href="#" class="btn btn-warning">Warning Button</a>
-            <a href="#" class="btn btn-danger">Danger Button</a>
-    </div> 
+        <a href="#" class="btn btn-primary">Primary Button</a>
+        <a href="#" class="btn btn-success">Success Button</a>
+        <a href="#" class="btn btn-warning">Warning Button</a>
+        <a href="#" class="btn btn-danger">Danger Button</a>
+    </div>
     <br><br>
     <form>
         <div class="form-group">
@@ -40,5 +76,6 @@
         </div>
         <button type="submit" class="btn btn-primary">Login</button>
     </form>
-    </body>
-    </html>
+</body>
+
+</html>
